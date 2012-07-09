@@ -14,3 +14,7 @@ You have a nice idea? Tell us, please. We will consider joining it in our mod.
 
 You can (and we encourage you to do so!) fork this project, work on your own, and when you think it will be nice to send us your changes you can just send us a pull request.
 You can also join the core team and push changes directly to the FA project.
+
+There are only a few prerequisites:
+* Read the entire History of Hiigara book. It's only 31 pages long, but its content is very important.
+* You should have GitHub account. It will make synchronizing our work much easier.
