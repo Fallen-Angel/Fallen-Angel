@@ -1,0 +1,151 @@
+/////////////////////////////////////////////////////////////////////
+// reserved
+filerange 1 1499
+rangestart 1 249
+rangeend
+
+/////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////
+// code -- fe lobby
+
+rangestart 1000 1249
+// auto-patch
+1000	Poszukiwanie aktualizacji.
+1001	Znaleziono dostêpn¹ aktualizacjê.
+1002	Posiadasz najnowsz¹ wersjê gry.
+1003	Wybierz lokalizacjê do pobrania pliku.
+1004	Trwa pobieranie.
+1005	Informacje o pobieraniu aktualizacji.
+1006	Okreœlanie rozmiaru aktualizacji.
+1007	Nie uda³o siê rozpocz¹æ pobierania.
+1008	Pobieranie zakoñczone. Wciœnij przycisk Zastosuj, aby zainstalowaæ aktualizacjê.
+1009	Anulowano.
+1010	B³¹d: nie mo¿na rozpocz¹æ operacji.
+1011	Pobieranie dodatkowych informacji.
+1012	Nie mo¿na pobraæ listy zapasowych lokalizacji plików.
+1013	Brak dostêpnych lokalizacji zapasowych.
+//Download Status messages.
+1014	B³¹d.
+1015	Poszukiwanie hosta.
+1016	Nawi¹zywanie po³¹czenia.
+1017	Wysy³anie ¿¹dania.
+1018	Wysy³anie.
+1019	Oczekiwanie.
+1020	Odbiór stanu.
+1021	Odbiór nag³ówków.
+1022	Odbiór pliku.
+//Completion
+1023	B³¹d.
+1024	Prawid³owo.
+1025	Brak pamiêci.
+1026	Przepe³nienie bufora.
+1027	Nieudane przeliczenie adresu.
+1028	Nieudane poszukiwanie hosta.
+1029	B³¹d gniazda.
+1030	Po³¹czenie nieudane.
+1031	Nieprawid³owa odpowiedŸ.
+1032	¯¹danie odrzucone.
+1033	Nieuprawniony dostêp.
+1034	Dostêp zabroniony.
+1035	Nie znaleziono pliku.
+1036	B³¹d serwera.
+1037	Nieudane zapisywanie pliku.
+1038	Nieudany odczyt pliku.
+1040	Z³y adres pliku poprawki.  Nieznany sposób obs³ugi poprawki tego rodzaju.
+
+1080    Gra Homeworld 2 nie mo¿e zostaæ uruchomiona.  Proszê prze³¹czyæ komputer w tryb 32-bitowej palety kolorów.
+1090	Gra Homeworld 2 wykry³a w systemie obecnoœæ OpenGL %i.%i.  Homeworld2 najlepiej dzia³a z OpenGL w wersji 1.3 lub nowszej.\nProszê pobraæ nowe sterowniki do urz¹dzenia: %S %S.
+1091	Gra Homeworld 2 wykry³a w systemie przestarza³e sterowniki karty graficznej.\nProszê pobraæ nowe sterowniki do urz¹dzenia: %S %S.
+1092	Gra Homeworld 2 aktualnie pracuje na buforze o g³êbi %i-bitowej, poniewa¿ próba prze³¹czenia na tryb graficzny o g³êbi 24-bitowej lub wiêkszej nie powiod³a siê.  Najprawdopodobniej spowoduje to zniekszta³cenia grafiki.  Prze³¹czenie komputera w tryb 32-bitowej palety kolorów mo¿e rozwi¹zaæ ten problem.
+1093	Gra Homeworld 2 aktualnie pracuje na buforze szablonowym o g³êbi %i-bitowej, poniewa¿ poszukiwanie trybu graficznego o g³êbi 1-bitowej lub wiêkszej nie powiod³o siê.  Spowoduje to problemy z wyœwietlaniem cieniowania na Ekranie Czujników.
+1094	Gra Homeworld 2 ocenia, ¿e w systemie znajduje siê karta AGP pracuj¹ca w trybie PCI.  Je¿eli taka sytuacja ma miejsce, prze³¹czenie karty w tyb AGP poprawi szybkoœæ pracy gry HW2.
+1095	Gra Homeworld 2 wykry³a, ¿e system korzysta ze sterowników graficznych, w których wykryto b³êdy. Gra wy³¹czy³a niektóre funkcje, aby unikn¹æ przypadków zawieszania siê komputera.  Zalecamy zainstalowanie nowszych sterowników oferowanych przez producenta karty graficznej. Gra Homeworld 2 bêdzie wówczas dzia³aæ szybciej i przy lepszej jakoœci grafiki.
+// these must appear in order to match the eMinSpec enum in gl/r_defines.h
+1096	Gra Homeworld 2 wykry³a, ¿e posiadana karta graficzna nie obs³uguje wystarczaj¹cej liczby tekstur w jednym przebiegu. Uruchomienie Homeworld 2 nie bêdzie mo¿liwe.\nZalecamy modernizacjê komputera.
+1097	Gra Homeworld 2 wykry³a, ¿e posiadana karta graficzna nie obs³uguje wystarczaj¹cej liczby obiektów na piksel. Uruchomienie Homeworld 2 nie bêdzie mo¿liwe.\nZalecamy modernizacjê komputera.
+1098	Gra Homeworld 2 wykry³a, ¿e posiadana karta graficzna nie obs³uguje map szeœciennych. Uruchomienie Homeworld 2 nie bêdzie mo¿liwe.\nZalecamy modernizacjê komputera.
+1099	Gra Homeworld 2 szacuje, ¿e posiadany sprzêt nie obs³uguje technologii "destination alpha", co spowoduje nieprawid³ow¹ pracê gry.\nProszê spróbowaæ uruchomiæ grê w trybie 32-bitowej palety kolorów.
+
+1100	Hiigaranin
+1101	Vaygr
+
+// stringtable.lua
+1110	Czy na pewno chcesz wyjœæ z gry?
+1111	Musisz podaæ poprawne imiê, aby móc rozmawiaæ.
+1112	B³¹d w trakcie zapisywania.  Nie mo¿na zapisaæ gry. Proszê sprawdziæ czy na dysku jest wystarczaj¹ca iloœæ wolnego miejsca.
+1113	Nieprawid³owa nazwa pliku.  Nazwa pliku nie mo¿e zawieraæ nastêpuj¹cych znaków:\n\n / \\ : * ? \" < > |\n
+1114	Czy na pewno chcesz zapisaæ grê na miejscu istniej¹cej gry?
+1115	B³¹d w trakcie wczytywania.  Nie mo¿na wczytaæ gry.
+1116	Nieprawid³owa nazwa pliku. Plik o takiej nazwie nie istnieje.
+1117	Czy na pewno chcesz wyjœæ z bie¿¹cej gry?
+1118	Plik wczytany, ale nie zosta³ prawid³owo zamkniêty.  Odtwarzanie nagranej rozgrywki.
+1119	B³¹d rozmiaru pliku. Nie mo¿na odtworzyæ nagranej rozgrywki.
+1120	Nieprawid³owa nazwa pliku. Nie mo¿na odtworzyæ nagranej rozgrywki.
+1121	Nieprawid³owa wersja.  Nagrana rozgrywka nie jest obs³ugiwana przez tê wersjê gry.
+1122	Czy na pewno chcesz usun¹æ wybran¹ grê?
+1123	B³¹d kasowania pliku.
+1124	Aby kontynuowaæ, nale¿y utworzyæ profil u¿ytkownika.
+1125	Nie mo¿na utworzyæ profilu gracza. Profil o takiej nazwie ju¿ istnieje.
+1126	Musisz podaæ poprawn¹ nazwê profilu.
+1127	Posiadasz inn¹ wersjê gry Homeworld 2 ni¿ host.  Aby móc do³¹czyæ do gry, musisz posiadaæ dok³adnie tak¹ sam¹ wersjê gry.\n\nBli¿sze informacje, gdzie znaleŸæ inne wersje gry Homeworld 2 mo¿esz uzyskaæ od hosta gry lub na stronie www.homeworld2.com.
+1128	Czy na pewno chcesz ponownie uruchomiæ grê? Bie¿¹ca gra zostanie stracona.
+1129	To ju¿ koniec Samouczka. Czy chcesz powróciæ do Menu G³ównego?
+1130	Czy na pewno chcesz wycofaæ ze s³u¿by swoj¹ ca³¹ flotê? Bie¿¹ca gra zostanie stracona.
+
+// this string (1131) has to be generic enough to work for both campaign and tutorial
+1131	Czy na pewno chcesz zresetowaæ wszystkie misje? Stracisz dotychczas zrealizowane fragmenty misji.
+
+1132	Czy na pewno chcesz usun¹æ wybrany profil? Stracisz wszystkie zapisane gry i informacje o graczu o tym profilu.
+1133	Czy na pewno chcesz zast¹piæ podsystem %s nowym?
+1134	Czy na pewno chcesz przywróciæ domyœlne klawisze steruj¹ce?
+1135	<c=FFD800>%s</c> jest ju¿ przypisany do funkcji <c=FFD800>%s</c>\n\nCzy chcesz to zmieniæ?
+1136	<c=FFD800>%s</c> jest ju¿ przypisany do funkcji <c=FFD800>%s</c> i nie mo¿na zmieniæ tego skojarzenia.
+1137	Czy na pewno chcesz usun¹æ wybrany klucz?
+1138	Nieprzypisany
+1139	Wciœnij klawisz...
+1140	Czy na pewno chcesz przywróciæ domyœlne ustawienia gracza? Stracisz wszystkie kolory dru¿yn.
+1141	Has³a gry nie zgadzaj¹ siê, proszê potwierdziæ has³o.
+1142	Gra Homeworld musi zostaæ wy³¹czona w celu instalacji aktualizacji.\n\nWciœnij Tak, aby kontynuowaæ instalacjê albo Nie, aby powróciæ do Menu G³ównego.
+1143	Twój pseudonim zawiera znaki niedozwolone podczas gry wieloosobowej za pomoc¹ us³ugi GameSpy. Znaki te nie bêd¹ prawid³owo wyœwietlane.\nPrawid³owe znaki to: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789[]\\`_^{|}-"
+1144	Czy na pewno chcesz przywróciæ opcje domyœlne?
+1145	Ten rozkaz %s mo¿na przypisaæ wy³¹cznie do jednego klawisza.
+
+1146	Wczytanie zapisanej gry jest niemo¿liwe. Zapisana gra jest uszkodzona lub pochodzi z innej wersji gry Homeworld 2.
+
+1147	Aby dokonaæ zmiany rozdzielczoœci, nale¿y ponownie uruchomiæ grê Homeworld2.  Czy chcesz teraz ponownie uruchomiæ grê Homeworld 2?
+
+// Network messages
+1200	Nie znaleziono hosta.
+1201	Adres nieprawid³owy.
+1202	Has³o nieprawid³owe.
+1203	Sieæ niedostêpna.
+1204	Gra pe³na.
+1205	Ró¿ne wersje lub mody.
+1206	Utrata synchronizacji.
+1207	Nieznany poziom.
+1208	Host opuœci³ grê.
+1209	Oczekiwanie, a¿ pozostali gracze zakoñcz¹ wczytywanie...
+1210	Pobieranie treœci...
+1211    Zosta³eœ wyrzucony z gry.
+
+// ESRB Warning
+1220	*Ostrze¿enie ESRB: W trakcie gry sieciowej charakter rozgrywki mo¿e ulec zmianie.
+
+// Version label
+1221	Fallen Angel dev-master (Homeworld v%d.%d)
+
+// Autosave
+1222	AutoSave
+rangeend
+
+
+
+/////////////////////////////////////////////////////////////////////
+// code -- fe postgame
+
+rangestart 1250 1499
+rangeend
+
+
+
