@@ -1,0 +1,44 @@
+dofilepath("data:scripts/SCAR/FallenAngel_Level.lua");
+
+maxPlayers = 2;
+player = {
+	{ -- gracz
+		id = 0,
+		name = "",
+		resources = 700,
+		raceID = 1, -- Hiigarañska Flota Eksploracyjna
+		startPos = 0
+	},
+	{ -- CPU 1
+		id = 1,
+		name = "",
+		resources = 0,
+		raceID = 2, -- Taiidañskie Si³y Inwazyjne
+		startPos = 0
+	}
+};
+
+Squadrons = {{ "PlayerCarrier", "Hgn_Carrier", { 600, 100, 5000 }, 0, { 0, 190, 0 }, 0, 0 }};
+
+function DetermChunk()	
+	FA_DetermChunk();
+	
+	setWorldBoundsInner({0, 0, 0}, {30724.5, 30724.5, 30724.5});
+end
+
+
+function NonDetermChunk()
+	FA_NonDetermChunk();
+
+	fogSetActive(1);
+	fogSetStart(10);
+	fogSetEnd(9000);
+	fogSetColour(0.083984, 0.123047, 0.207031, 1);
+	fogSetType("linear");
+	fogSetDensity(0.3);
+	
+	setGlareIntensity(0);
+	setLevelShadowColour(0, 0, 0, 1);
+	loadBackground("m01");
+	setSensorsManagerCameraDistances(5000, 35000);
+end

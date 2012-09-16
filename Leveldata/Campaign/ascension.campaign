@@ -1,0 +1,15 @@
+displayName = "$5500"
+Mission = {};
+Mission[1] = {
+    postload = function ()
+		playAnimatic("data:animatics/A00.lua", 0, 0);
+	end, 
+    directory = "M01_Wastelands", 
+    level = "M01_Wastelands.level", 
+    postlevel = function (bWin)
+		playAnimatic("data:animatics/A01.lua", 1, 0);
+		postLevelComplete();
+	end, 
+    displayName = "$4000", 
+    description = "$4001"
+};
