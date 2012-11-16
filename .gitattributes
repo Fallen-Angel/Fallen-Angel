@@ -1,6 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
+*.campaign text diff
+*.level text diff
+*.lua text diff
+*.miss text diff
+*.ship text diff
+*.subs text diff
+*.wepn text diff
+
 *.hod binary
 *.tga binary
 *.rot binary
