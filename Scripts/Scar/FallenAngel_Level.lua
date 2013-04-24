@@ -6,6 +6,7 @@ Asteroids = {}
 Nebulas = {}
 SOBGroups = {}
 AddSOBGroups = {}
+Pebbles = {}
 
 function FA_DetermChunk()
 	for i, k in Squadrons do
@@ -33,8 +34,6 @@ function FA_DetermChunk()
 		addToSOBGroup(k[1],k[2])
 	end
 end
- 
-Pebbles = {}
 
 function FA_NonDetermChunk()
 	for i, k in Pebbles do

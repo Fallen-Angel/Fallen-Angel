@@ -1,0 +1,91 @@
+function DetermChunk()	
+	addSquadron("SP_Tanker", "SP_Tanker", {-2400, 150, -900}, 1, {0, 30, 0}, 0, 0);
+	addSquadron("SP_Tanker2", "SP_Tanker2", {-3323, -300, -1600}, 1, {0, 30, 0}, 0, 0);
+	-- addSquadron("SP_Tanker3", "SP_Tanker3", {-3794, 175, -1230}, 1, {0, 25, 0}, 0, 0);
+	-- addSquadron("SP_Tanker4", "SP_Tanker4", {-2954, 30, -1820}, 1, {0, 25, 0}, 0, 0);
+	
+	addSquadron("TaiidanFrigate1", "Vgr_HeavyMissileFrigate", {-2854, 50, -1620}, 2, {0, 50, 0}, 0, 0);
+	addSquadron("TaiidanFrigate2", "Vgr_HeavyMissileFrigate", {-2754, 30, -1520}, 2, {0, 45, 0}, 0, 0);
+	addSquadron("TaiidanFrigate3", "Vgr_HeavyMissileFrigate", {-2800, 40, -1420}, 2, {0, 47, 0}, 0, 0);
+	addSquadron("TaiidanFrigate4", "Vgr_HeavyMissileFrigate", {-2930, 15, -1720}, 2, {0, 52, 0}, 0, 0);
+	
+	createSOBGroup("TaiidanFrigates");
+	addToSOBGroup("TaiidanFrigate1", "TaiidanFrigates");
+	addToSOBGroup("TaiidanFrigate2", "TaiidanFrigates");
+	addToSOBGroup("TaiidanFrigate3", "TaiidanFrigates");
+	addToSOBGroup("TaiidanFrigate4", "TaiidanFrigates");
+	
+	createSOBGroup("Tankers");
+	addToSOBGroup("SP_Tanker", "Tankers");
+	addToSOBGroup("SP_Tanker2", "Tankers");
+	-- addToSOBGroup("SP_Tanker3", "Tankers");
+	-- addToSOBGroup("SP_Tanker4", "Tankers");	
+	
+	-- addSphere("vol_Resources", {3640, 1356, 4941}, 700);
+	
+	-- addCamera("camera_focusonBattle", {-2600, 250, -700}, {-3023, -900, -1200});
+	-- addCamera("camera_focusonResources", {2640, 356, 3941}, {3640, 1356, 4941});
+	
+	-- addAsteroid("Asteroid_3", {4121, 1857, 4855}, 10, 0, 0, 0, 1);
+	-- addAsteroid("Asteroid_3", {3772, 1373, 5560}, 10, 0, 0, 0, 1);
+	-- addAsteroid("Asteroid_3", {3080, 1107, 5165}, 10, 0, 0, 0, 1);
+	-- addAsteroid("Asteroid_4", {3541, 1467, 4786}, 21, -18.367, -18.941, 0, 1);
+	-- addAsteroid("Asteroid_3", {3687, 976, 4339}, 10, 0, 0, 0, 1);
+	
+	
+	setWorldBoundsInner({0, 0, 0}, {30724.5, 30724.5, 30724.5});
+	
+
+end
+
+
+function NonDetermChunk()
+	fogSetActive(1);
+	fogSetStart(10);
+	fogSetEnd(9000);
+	fogSetColour(0.083984, 0.123047, 0.207031, 1);
+	fogSetType("linear");
+	fogSetDensity(0.3);
+	
+	
+	setGlareIntensity(0);
+	setLevelShadowColour(0, 0, 0, 1);
+	loadBackground("m01");
+	setSensorsManagerCameraDistances(5000, 35000);
+
+end
+
+maxPlayers = 4;
+player = {};
+
+player[0] = { -- gracz
+	id = 0,
+	name = "",
+	resources = 700,
+	raceID = 1, -- Hiigarañska Flota Eksploracyjna
+	startPos = 0
+};
+
+player[1] = { -- CPU 1
+	id = 1,
+	name = "",
+	resources = 0,
+	raceID = 1, -- Hiigarañska Flota Eksploracyjna
+	startPos = 0
+};
+
+player[2] = {
+	id = 2,
+	name = "",
+	resources = 0,
+	raceID = 2, -- Taiidanie
+	startPos = 0
+};
+
+player[3] = {
+	id = 3,
+	name = "",
+	resources = 0,
+	raceID = 3, -- Taiidañski Oddzia³ Badawczy
+	startPos = 0
+};
