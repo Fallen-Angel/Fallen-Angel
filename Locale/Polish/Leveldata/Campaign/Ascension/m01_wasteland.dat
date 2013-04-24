@@ -1,0 +1,241 @@
+filerange 40500 40999	
+rangestart 40500 40999
+// objectives
+40500	Rozpocznij gromadzenie zasobów. Zbierz 700 JZ.
+40501	Zbuduj Zbieracza Zasobów i rozka¿ mu eksploatowaæ zasoby.
+40502	Zbuduj Sekcjê Myœliwców.
+40503	Zbuduj eskadrê Myœliwców Przechwytuj¹cych.
+40504	Opracuj technologiê Bomby Plazmowej.
+40505	Zbuduj eskadrê Bombowców.
+40506	Pokonaj si³y Vaygrów przy Chimerze.
+40507	U¿yj Myœliwców Przechwytuj¹cych, aby zniszczyæ cele æwiczebne.
+40508	Przy pomocy Grup Uderzeniowych zniszcz Fregatê Vaygrów przy Stanowisku Xanhus.
+40509	Zniszcz Bramê Hiperprzestrzenn¹ oraz Myœliwce Vaygrów.
+40510	Broñ Statku Matki.
+40511	WejdŸ w Hiperprzestrzeñ.
+
+// location card
+40520	BAZA TANIS - WIELKIE PUSTKOWIA
+40521	Szacowany czas do przybycia posi³ków Vaygrów:  %1MINUTES%:%2SECONDS%
+40522	MISJA NIEUDANA
+40523	MISJA WYKONANA
+
+// text
+// intelevent_beginharvesting
+// FI
+40530	Tu Wywiad Floty. 
+40531	Naszym zadaniem jest przeanalizowaæ dane z czujników i wyznaczyæ cele misji.
+40532	Przed startem Statku Matki musimy przeprowadziæ szereg prób, aby upewniæ siê, ¿e wszystkie podstawowe systemy pracuj¹ prawid³owo.
+40533	W trakcie prób na Statku Matce obecne bêdzie tylko minimum potrzebnej za³ogi, a sam okrêt bêdzie ca³y czas zacumowany w Tanis.
+40534	Po zakoñczeniu prób, Statek Matka wystartuje. Wówczas przeprowadzimy próby Rdzenia Hiperprzestrzeni.
+40535	W pierwszym teœcie sprawdzimy dzia³anie Systemu Zasobów.
+40536	Zbieracz Zasobów czeka w gotowoœci. 
+40537	Rozpocznij eksploatacjê okolicznych zasobów.
+
+// intelevent_subsystemconstruction
+// FC
+40540	Systemy Zasobów dzia³aj¹ prawid³owo.
+40541	Próba zakoñczona pomyœlnie.
+// FI
+40542	Teraz przetestujemy zdolnoœci produkcyjne Statku Matki.
+40543	Rozpocznij budowê Podsystemu Sekcji Myœliwców.
+
+// intelevent_constructinterceptors
+// FC
+40550	Podsystem Sekcji Myœliwców gotowy.
+40551	Dzia³ produkcyjny przygotowany do budowy Myœliwców.
+// FI
+40552	Aby przetestowaæ podstawow¹ sprawnoœæ bojow¹, wyprodukuj eskadrê Myœliwców Przechwytuj¹cych.
+
+// speechevent_firstgatedestroyed
+// FI
+40560	Brama zniszczona.
+40561	Zniszcz wszystkie pozosta³e Bramy Hiperprzestrzenne.
+
+// intelevent_movetochimera
+// FI
+40570	Przygotuj siê do rozpoczêcia prób bojowych.
+40571	Stanowisko Obwodowe Chimera przygotowa³o cele æwiczebne - obiekty bezza³ogowe.
+40572	Obiekty te znajduj¹ siê tutaj.
+40573	U¿yj Myœliwców Przechwytuj¹cych, aby zniszczyæ cele.
+
+// intelevent_perimiterbreached
+// FI
+40580	Zaatakowano Tanis!
+40581	Do wszystkich oddzia³ów - alarm bojowy! To nie s¹ æwiczenia!
+40582	Z Chimery wystartowa³y Myœliwce Przechwytuj¹ce. Nale¿y zniszczyæ si³y wroga.
+40583	Rozka¿ Myœliwcom Przechwytuj¹cym zniszczyæ Bombowce Vaygrów.
+
+// intelevent_chimeraissafe
+// FI
+40590	Wykryto obecnoœæ du¿ych oddzia³ów posi³kowych wroga.
+40612	Natychmiast rozpocznij budowê Bombowców, aby odeprzeæ nowe zagro¿enie.
+40613	Bombowce bêd¹ niezbêdne do obrony Statku Matki.
+40591	*** AXED *** Estimated time before contact, 3 minutes.
+40592	*** AXED *** We must begin research of Plasma Bomb technology immediately.
+
+// intelevent_moreincoming
+// FI
+40600	Alarm priorytetowy.
+40601	Vaygrowie korzystaj¹ z Bram Hiperprzestrzennych.
+40602	Je¿eli nie zniszczymy Bram, nieprzyjaciel bêdzie bezustannie przysy³a³ tamtêdy posi³ki.
+40603	Trzeba zniszczyæ Bramy!
+
+// speechevent_buildattackbombers
+// FI
+// 40610	***AXED *** Plasma Bomb research complete.  Attack Bombers ready for construction.
+// 40611	***AXED *** These fighters are effective against heavily armored targets.
+
+
+
+// speechevent_attackbombersdestroyed
+// FI
+40620	Potrzebujemy wiêcej Bombowców, ¿eby zniszczyæ Bramy Vaygrów.  
+40621	Zbuduj kilka kolejnych eskadr Bombowców.
+
+// intelevent_mothershipjumps
+// FI
+40630	Czujniki dalekiego zasiêgu wykry³y liczne nieprzyjacielskie sygna³y koncentruj¹ce siê wokó³ Tanis.
+40631	Do wszystkich okrêtów - rozpocz¹æ procedurê dokowania i przygotowaæ siê do wejœcia w Hiperprzestrzeñ.
+// FC
+40632	Przybyli Vaygrowie.
+40633	Rozpoczêto procedurê awaryjnego wejœcia w Hiperprzestrzeñ. Kurs na Ojczyst¹ Planetê.
+40634	Statek Matka nie mo¿e zostaæ zniszczony.
+40635	*** AXED *** Enemy Hyperspace Gate destroyed.
+
+
+// speechevent_chimerareporting
+// CHIMERA
+40640	Uwaga, Dowództwo Rejonu Tanis. Tu Stanowisko Chimera.
+40641	Wykryliœmy liczne cele nadci¹gaj¹ce z kierunku trzy-czternaœcie.
+
+// autofocus_mothershiplaunches
+// FI
+40650	Brak ³¹cznoœci ze Stanowiskiem Chimera.
+// LINE BELOW IS OUT OF NUMERICAL ORDER BUT IS CORRECT CHRONOLOGICALLY
+40666	Vaygrowie przerwali pierœcieñ obrony Tanis.
+// FC
+40667	Statek Matka zosta³ zaatakowany!
+// DONT ADD NEW LINES HERE.  THESE LINES HAVE BEEN SEPERATED OUT TO autofocus_premothershiplaunches
+40657	Nie mo¿emy tu d³u¿ej zostaæ. Rozpoczêto Start Awaryjny.
+// TANIS CONTROL
+40658	Za³ogi startowe, przygotowaæ siê do startu awaryjnego.
+// MISC CHATTER
+40659	Potwierdzam, Tanis.
+40660	Z³¹cza Podstawowe zwolnione...
+40661	Wygl¹da dobrze...
+40662	...zielona linia, potwierdzam...
+// FC
+40663	Statek Matka opuœci³ Tanis.
+40664	Odlecieliœmy.
+40665	Zespo³y kontroli uszkodzeñ w gotowoœci.
+
+// autofocus_premothershiplaunches -- when the 1st gate is destroyed
+// FI
+40651	Odbieramy zaszyfrowan¹ transmisjê z Hiigary:
+// HIIGARA
+40652	Dowództwo Rejonu Tanis, tu Stanowisko Jerycho przy ksiê¿ycu Angel.
+40653	Ogromna flota inwazyjna Vaygrów zbli¿a siê do Ojczystej Planety. Przewiduje siê ciê¿kie straty w³asne.
+40654	Personel wyznaczony do obsadzenia Statku Matki rozpoczyna ewakuacjê, wyznaczono punkt zbiórki.
+40655	Zainicjowano procedury obronne, oczekujemy na przybycie wroga.
+// FC
+40656	Ojczysta Planeta zosta³a zaatakowana!
+
+// speechevent_taniscompromised
+// FC
+40670	Vaygrowie ju¿ wiedz¹, ¿e tu jesteœmy... trzeba broniæ Statku Matki.
+
+// speechevent_movemothership
+// FC
+40680	Nie ma zgody.
+40681	Statek Matka musi oddaliæ siê od Tanis, zanim bêdzie móg³ bezpiecznie wejœæ w Hiperprzestrzeñ.
+
+// alternate lines for minute based content
+// FI
+40690	Szacowany czas do starcia - 1 minuta.
+40691	Szacowany czas do starcia - 2 minuty.
+40692	Szacowany czas do starcia - 3 minuty.
+40694	Szacowany czas do starcia - 4 minuty.
+40695	Szacowany czas do starcia - 5 minut.
+40696	Szacowany czas do starcia - 6 minut.
+40697	Szacowany czas do starcia - 7 minut.
+40698	Szacowany czas do starcia - 8 minut.
+40699	Szacowany czas do starcia - 9 minut.
+40700	Szacowany czas do starcia - 10 minut.
+
+// speechevent_icdeadpeople
+// FC
+40710	Mamy straty w³asne!
+
+// speechevent_newbuildoptionsavailable
+// FC
+40720	Dostêpne nowe opcje budowy.
+
+// player names
+40790	
+40791	Si³y obronne Tanis
+40792	Si³y inwazyjne Vaygrów
+40793	Marynarka Hiigarañska
+
+// pings
+40800	Operacje zasobowe.
+40801	Cele æwiczebne
+40802	Bombowce Vaygrów
+40803	Si³y uderzeniowe Fregaty Vaygrów
+40804	Brama Hiperprzestrzenna Vaygrów
+
+// ping details
+// details used for 40800
+40900	Aby nakazaæ zbieranie zasobów, wybierz ZBIERACZA ZASOBÓW i kliknij PRAWYM PRZYCISKIEM MYSZY na skupiska zasobów.
+
+// details used for 40801
+40905	U¿yj MYŒLIWCÓW PRZECHWYTUJ¥CYCH, aby zniszczyæ cele æwiczebne.
+40906	Aby wydaæ rozkaz ataku, wybierz statki, które maj¹ przeprowadziæ atak, a nastêpnie KLIKNIJ PRAWYM PRZYCISKIEM MYSZY na wybrany cel.
+40907	Aby zaatakowaæ kilka celów, ZAKREŒL je mysz¹.
+
+// details used for 40802
+40910	Zniszcz Bombowce Vaygrów przy pomocy Myœliwców Przechwytuj¹cych.
+
+// details used for 40803
+40915	Te si³y Vaygrów s¹ uformowane w Grupê Uderzeniow¹.
+40916	Myœliwce Przechwytuj¹ce Vaygrów bez trudu rozprawi¹ siê z twoimi Bombowcami.
+40917	Uformuj swoje Myœliwce Przechwytuj¹ce i Bombowce w Grupê Uderzeniow¹. Dziêki temu, Myœliwce Przechwytuj¹ce bêd¹ os³ania³y Bombowce.
+
+// objective descriptions
+// description used for 40500
+40950	Aby nakazaæ zbieranie zasobów, wybierz Zbieracze Zasobów i kliknij PRAWYM PRZYCISKIEM MYSZY na skupiska zasobów.
+
+// description used for 40501
+40955	
+
+// description used for 40502
+40960	SEKCJA MYŒLIWCÓW to jeden z PODSYSTEMÓW.  Znajduje siê w Dziale Budowy, w czêœci Myœliwce.
+
+// description used for 40503
+40965	Myœliwce Przechwytuj¹ce znajduj¹ siê w Dziale Budowy, w czêœci Myœliwce.
+40966	Mo¿esz utworzyæ kolejkê budowy kilku jednostek, klikaj¹c kilka razy odpowiednie ikony.
+
+// description used for 40504
+40970	
+
+// description used for 40505
+40975	Bombowce znajduj¹ siê w Menu Budowy, w czêœci Myœliwce.
+
+// description used for 40506
+40980	Zniszcz Bombowce Vaygrów, wybieraj¹c Myœliwce Przechwytuj¹ce, a nastêpnie wydaj¹c rozkaz Atakuj.
+40981	Aby wydaæ rozkaz Atakuj, kliknij PRAWYM PRZYCISKIEM MYSZY na cele, które chcesz zaatakowaæ.
+
+// description used for 40507
+40985	Zaatakuj i zniszcz cele æwiczebne za pomoc¹ Myœliwców Przechwytuj¹cych.
+40986	Aby wydaæ rozkaz ataku, wybierz Myœliwce Przechwytuj¹ce, a nastêpnie kliknij PRAWYM PRZYCISKIEM MYSZY na statkach wroga, które chcesz zaatakowaæ.
+40987	Aby zaatakowaæ kilka celów, ZAKREŒL je mysz¹.
+
+// description used for 40508
+40990	
+
+// description used for 40509
+40995	Zniszcz Bramy Hiperprzestrzenne za pomoc¹ Bombowców.
+
+// description used for 40510
+40998	Broñ Statku Matki. NIE MO¯ESZ dopuœciæ, aby zosta³ on zniszczony.
+rangeend

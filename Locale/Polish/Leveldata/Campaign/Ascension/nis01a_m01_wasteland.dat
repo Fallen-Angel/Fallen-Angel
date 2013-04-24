@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////////////////////////
+// NIS01A
+
+filerange 56000 56019
+rangestart 56000 56019
+56000	Mówi Dowództwo Rejonu Tanis.
+56001	Mamy Rdzeñ w zasiêgu wzroku. Kontynuowaæ transport. 
+56002	Potwierdzam, Tanis.
+56003	Trajektoria i ustawienie prawid³owe. 
+56004	Przesuñcie dalej, a¿ do jeden-piêtnaœcie. Rozpocz¹æ procedurê przejêcia. 
+56005	Statek Matka rozpoznaje Rdzeñ i potwierdza koordynaty sygna³u.
+56006	Dowództwo Floty w gotowoœci. 
+56007	Meldunek o stanie Statku Matki. 
+56008	Dzia³ Nawigacji w gotowoœci.
+56009	Gotowi do inicjacji sekwencji Silnika G³ównego.
+56010	Silniki G³ówne w gotowoœci. 
+56011	Próba silników zakoñczona, wszystkie napêdy konwencjonalne w pe³ni sprawne. 
+56012	Dzia³ Technologiczny w gotowoœci.
+56013	Statek Matka zg³asza pe³n¹ gotowoœæ.	
+
+rangeend
